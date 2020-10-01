@@ -2,9 +2,9 @@
 # vi: set ft=ruby  :
 
 machines = {
-  "worker01"   => {"memory" => "1024", "cpu" => "1", "ip" => "10", "image" => "ubuntu/xenial64"},
-  "worker02" => {"memory" => "1024", "cpu" => "1", "ip" => "20", "image" => "ubuntu/xenial64"},
-  "worker03"   => {"memory" => "1024", "cpu" => "1", "ip" => "30", "image" => "ubuntu/xenial64"}
+  "worker01"   => {"memory" => "1024", "cpu" => "2", "ip" => "10", "image" => "ubuntu/xenial64"},
+  "worker02" => {"memory" => "1024", "cpu" => "2", "ip" => "20", "image" => "ubuntu/xenial64"},
+  "worker03"   => {"memory" => "1024", "cpu" => "2", "ip" => "30", "image" => "ubuntu/xenial64"}
 }
   
 
